@@ -27,14 +27,22 @@
 
 .Australia{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .Australia img{
     width: 30%;
     height: 200px;
     object-fit: cover;
     border-radius: 15px;
+    padding: 5px;
 }
+
+.Story{
+    padding: 10px;
+    font-weight: 40px;
+}
+
+
 
 #blog{
     color: chocolate;
@@ -44,7 +52,7 @@
 
 .Japan{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .Japan img{
@@ -52,23 +60,25 @@
     height: 200px;
     object-fit: cover;
     border-radius: 15px;
+    padding-left: 5px;
 }
 
 .USA{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .USA img{
     width: 30%;
     height: 220px;
     object-fit: cover;
-    border-radius: 15PX;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 ol{
     list-style-position: inside;
-    padding: 0;
+    padding: 10px;
 }
 
 ol li{
@@ -104,7 +114,7 @@ ol li img{
 
 
 ul{ list-style-position: inside;
-    padding: 0;
+    padding: 10px;
 }
 
 
@@ -116,6 +126,7 @@ ul li{
     font-style: italic;
     color: blue;
     margin-bottom: 20px;
+
     
 
 }
@@ -147,4 +158,36 @@ ul li img{
     font-weight: 600;
     font-style: italic;
     font-size: 20px;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+th, td{
+    border: 1px solid gold;
+    padding: 12px;
+    text-align: left;
+    color:darkmagenta;
+}
+
+th{
+    background-color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: blue; 
+}
+
+footer{
+    padding: 20px;
+}
+
+#song{
+    padding: 20px;
+
 }
